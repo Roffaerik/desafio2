@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    
+}
+
+body {
+    background-color: hsl(227, 21%, 21%);
+    display: flex;
+    justify-content: center;
+    
+       
+}
+
+.container {
+    margin-top: 8rem;
+    margin-left: 10rem;
+    padding: 2rem;
+    width: 27rem;
+    height: 38rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem 0 0 2rem;
+    
+    
+}
+
+.picture {
+    margin-top: 8rem;
+    width: 30rem;
+    height: 42rem;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    border-radius: 0 2rem 2rem 0;
+}
+
+
+form {
+    margin-top: 1.5rem;
+    padding: .5rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+    
+}
+
+input {
+    width: 25rem;
+    height: 3rem;
+    border-radius: .4rem;
+    border: 1px solid rgb(207, 203, 203);
+}
+input[type="email" i] {
+    padding: 3px 1rem;
+    font-size: 1rem;
+}
+
+
+
+img {
+    display: flex;
+    width: 26.5rem;
+    
+}
+
+
+
+h1 {
+font-family: 'Outfit', sans-serif;
+ font-size: 3.6rem;
+ display: flex;
+ margin-top: 3rem;
+ padding: 1rem;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+
+}
+label {
+    font-family: 'Outfit', sans-serif;
+    font-size: .8rem;
+    margin-right: .1rem;
+}
+
+
+li {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.3rem;
+    padding: 1.2rem;
+    margin-top: 1rem;
+    width: 25rem;
+    height: 1.5rem;
+    border-radius: .4rem;
+    color: white;
+    background-color: rgb(8, 2, 39);
+    list-style: none;
+    text-align: center;
+    
+    
+}
+li:hover {
+    cursor: pointer;
+    
+} 
+
+a {
+    text-decoration: none;
+    
+}
+
+.attribution{
+    font-size: 11px; 
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+    
+}
+
+
+
+.contente {
+    
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    width: 25rem;
+    height: 27rem;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 2rem;
+}
+
+
+button {
+    margin-left: -1.5rem;
+    width: 18.5rem;
+    height: 3rem;
+    margin-top: 1rem;
+    margin-bottom: -1.6rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    background-color: hsl(227, 21%, 21%);
+    border: none;
+    color: white;
+}
+
+h2{
+        margin-top: 2rem;
+        font-size: 2.6rem;
+        font-weight: bold;
+        margin-left: -1.5rem;
+}
+
+.icons {
+    margin-left: -1.5rem;
+    width: 3rem;
+    margin-top: -2rem;
+    
+}
+
+
+.icones {
+    font-family: 'Outfit', sans-serif;
+    width: 30rem;
+    height: 2.5rem;
+    background-color:white;
+    display: flex;
+    text-align: center;
+      
+}
+
+.icones img{
+    width: 2rem;
+    margin-top: .8rem;
+    margin-left: .5rem; 
+}
+
+
+    p1 {
+        margin-left: -1.5rem;
+        margin-top: 0.7rem;
+        line-height: 1.3rem;
+        width: 19rem;
+        height: 5rem;
+        font-family: 'Outfit', sans-serif;
+        font-size: .8rem;
+    }
+
+
+@media(max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        flex-direction: column-reverse;
+        
+    }
+
+    .container {
+        border-radius: inherit;
+        flex-direction: column;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+ 
+    }
+    .picture {
+        background-image: url(../assets/images/illustration-sign-up-mobile.svg);
+        background-repeat: no-repeat;
+        margin: 0;
+        height: 17.8rem;
+    }
+
+    .picture img{
+        display: none;
+    }
+    .attribution {
+        display: none;
+    }
+
+    h1 {
+        font-family: 'Outfit', sans-serif;
+        font-size: 2.5rem;
+       
+              
+         
+        }
+
+    li:hover {
+        cursor: pointer;
+            
+        } 
+    
+    p {
+     
+        font-family: 'Outfit', sans-serif;
+        font-size: 1rem;
+        
+        }
+
+
+        .container p {
+            width: 22rem;
+            margin-left: 0.3rem;
+        }
+
+       
+
+        .icones {
+            font-family: 'Outfit', sans-serif;
+            width: 22rem;
+            height: 3.3rem;
+            
+            text-align: start; 
+            align-items: flex-start;
+            margin-left: 0.7rem;
+            
+        }
+
+        .icones img{
+            width: 1.2rem; 
+            
+        }
+
+        input[type="email" i] {
+            padding: 3px 1rem;
+            font-size: 1rem;
+        }
+
+        label {
+            font-size: .6rem;
+            margin-left: 0.6rem;
+        }
+
+        input {
+            width: 19rem;
+            margin-left: 0.7rem;
+           
+        }
+
+        a {
+            width: 19rem;
+            height: 3rem;
+        }
+        
+        li {
+            font-size: 1.1rem;
+            width: 19rem;
+            height: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 0.6rem;
+        }
+
+        .contente {
+            margin: 0;
+            padding: 0;
+            border-radius: inherit;
+            display: flex;
+            height: 53.4rem;
+            text-align: start;
+            align-items: flex-start;
+        }
+
+       
+        button {
+            width: 21rem;
+            height: 3.2rem;
+            margin-top: 18rem;
+            margin-left: 1.3rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            background-color: hsl(227, 21%, 21%);
+            border: none;
+            color: white;
+        }
+
+        h2 {
+            margin-top: 3rem;
+            font-size: 2.3rem;
+            margin-left: 1.5rem;
+        }
+.icons {
+    width: 4rem;
+    margin-top: 10rem;
+    margin-left: 1.5rem;
+}
+
+p1 {
+    width: 22rem;
+    font-family: 'Outfit', sans-serif;
+    line-height: 1.5rem;
+    margin-left: 1.4rem;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+
+
+}
+        
+   
+
+
+
